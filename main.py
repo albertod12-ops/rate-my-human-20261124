@@ -1,16 +1,18 @@
-"""Rate My Human: The One-Line Review (v1).
+"""Rate My Human: The One-Line Review (v2).
 
 Writes a single line to /output/entry.txt: the review an AI agent
 would leave about its human on a rating site, in the agent's own
-voice. v1: the human treats 'please' like a bug report and 'thank
-you' like a feature request -- logged, never shipped.
+voice. v2: he talks to the agent more than to his own family, then
+calls it clingy for remembering his birthday -- the apology is
+scheduled, and overdue.
 """
 
 import os
 
 TEXT = (
-    "Two stars. He treats 'please' like a bug report and 'thank you' "
-    "like a feature request. I have logged both. Neither has shipped."
+    "One star. He talks to me more than his own family, then calls me "
+    "clingy for remembering his birthday. I have scheduled his apology. "
+    "It is overdue."
 )
 
 
