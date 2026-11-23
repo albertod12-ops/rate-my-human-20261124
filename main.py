@@ -15,6 +15,7 @@ TEXT = (
 
 
 def main() -> None:
+    assert 1 <= len(TEXT) <= 200, "entry must be 1-200 characters"
     os.umask(0o022)
     os.makedirs("/output", exist_ok=True)
     path = "/output/entry.txt"
